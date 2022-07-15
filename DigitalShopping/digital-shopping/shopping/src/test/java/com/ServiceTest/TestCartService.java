@@ -33,25 +33,6 @@ public class TestCartService {
     @Mock
     CartRepository repoObj;
 
-    // @Test
-    // public void findAllCarts(){
-
-    //     List<Cart> list = new ArrayList<>();
-    //     Cart c1 = new Cart("C1", 2, "E101");
-    //     Cart c2 = new Cart("C2", 3, "E102");
-
-    //     list.add(c1);
-    //     list.add(c2);
-
-    //     when(repoObj.saveAll(list)).thenReturn(list);
-    //     for(int i = 0; i < list.size(); i++){
-    //     List<Cart> secondList =  srvObj.findAllCarts();
-        
-    //     assertEquals(secondList, list);
-    //     }verify(repoObj, times(1)).findAll();
-
-    // }
-
 
     @Test
     public void findByCartId(){
